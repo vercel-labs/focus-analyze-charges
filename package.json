@@ -1,0 +1,16 @@
+{
+  "name": "focus-analyze-charge",
+  "version": "1.0.0",
+  "description": "Fetches and analyzes billing charges from the Vercel API",
+  "main": "analyze-charges.js",
+  "scripts": {
+    "start": "node analyze-charges.js",
+    "refresh": "node analyze-charges.js --refresh"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
